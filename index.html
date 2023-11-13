@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição de Títulos de Filmes</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="filme-container">
+        <div class="filme-bloco">
+            <!-- Blocos vazios para preencher com títulos de filmes usando JavaScript -->
+        </div>
+    </div>
+    <button id="mostrar-mais">Mostrar Mais</button>
+
+    <script>
+        const filmes = [
+            "O Poderoso Chefão", "Star Wars: Episódio IV - Uma Nova Esperança", "E o Vento Levou", "Pulp Fiction: Tempo de Violência",
+            "O Senhor dos Anéis: A Sociedade do Anel", "Titanic", "O Resgate do Soldado Ryan", "Forrest Gump: O Contador de Histórias",
+            "Jurassic Park", "O Iluminado", "Matrix", "O Rei Leão", "Avatar", "Gladiador", "Clube da Luta", "Cidade de Deus",
+            "Interestelar", "O Silêncio dos Inocentes", "A Origem", "Os Infiltrados"
+        ];
+
+        const filmeContainer = document.getElementById('filme-container');
+        const mostrarMaisButton = document.getElementById('mostrar-mais');
+        let blocoAtual = 0;
+        const filmesPorBloco = 5;
+
+        function criarBlocoDeFilmes() {
+            const blocoDiv = document.createElement('div');
+            blocoDiv.classList.add('filme-bloco', 'hidden');
+            filmeContainer.appendChild(blocoDiv);
+            return blocoDiv;
+        }
+
+        function mostrarBlocoDeFilmes(bloco) {
+            bloco.classList.remove('hidden');
+        }
+
+        function adicionarFilmesAoBloco(bloco, inicio, fim) {
+            for (let i = inicio; i < fim; i++) {
+                const filmeDiv = document.createElement('div');
+                filmeDiv.textContent = filmes[i];
+                bloco.appendChild(filmeDiv);
+            }
+        }
+
+        function mostrarMaisFilmes() {
+            if (blocoAtual < Math.ceil(filmes.length / filmesPorBloco)) {
+                const bloco = criarBlocoDeFilmes();
+                const inicio = blocoAtual * filmesPorBloco;
+                const fim = Math.min((blocoAtual + 1) * filmesPorBloco, filmes.length);
+                adicionarFilmesAoBloco(bloco, inicio, fim);
+                mostrarBlocoDeFilmes(bloco);
+                blocoAtual++;
+            }
+
+            if (blocoAtual >= Math.ceil(filmes.length / filmesPorBloco)) {
+                mostrarMaisButton.style.display = 'none';
+            }
+        }
+
+        mostrarMaisButton.addEventListener('click', mostrarMaisFilmes);
+        mostrarMaisFilmes(); // Mostrar o primeiro bloco de filmes automaticamente
+    </script>
+</body>
+</html>
+
