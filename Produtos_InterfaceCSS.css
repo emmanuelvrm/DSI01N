@@ -1,0 +1,119 @@
+
+
+/*.legenda1{
+    height: 90px;
+    width: 100%;
+    text-align: center;   
+}*/
+    
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Noto+Sans:wght@700&family=Oswald:wght@500&family=Passion+One&family=Righteous&family=Sriracha&display=swap');
+body{
+
+    background-color: black;
+}
+p{
+ color: rgb(255, 255, 255)   
+}
+
+   
+
+.interface{
+    height: 800px;
+    position: relative; top: 55px;
+    width: 100%;
+
+}
+
+.coluna1{
+    height: 350px;
+    position: relative;
+}
+img {
+    border: 1px solid #a37d00;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+
+.img1,.img2,.img3{
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+
+
+.coluna1 img{
+    height: 400px;
+    width: 200px;
+}
+
+.img1 p{
+    position: relative; left: -170px; top: 240px;
+    font-family:'Kanit', sans-serif;
+}
+
+.img2 p{
+    position: relative; right: 170px; top: 240px;
+    font-family:'Kanit', sans-serif;
+}
+
+.img3 p{
+    position: relative; right: 170px; top:240px;
+    font-family:'Kanit', sans-serif;
+}
+
+.coluna2{
+    height: 350px;
+    position: relative; top: 150px;
+}
+
+.img4,.img5,.img6{
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+    position: relative;
+}
+
+.coluna2 img{
+    height: 420px;
+    width: 200px;
+}
+
+.img4 p{
+    position: relative; top: 240px; left: -170px;
+    font-family:'Kanit', sans-serif;
+}
+
+.img5 p{
+    position: relative; top: 240px; right: 170px;
+    font-family:'Kanit', sans-serif;
+}
+
+.img6 p{
+    position: relative; top: 240px; right: 170px;
+    font-family:'Kanit', sans-serif;
+}
+
+
+/*.legenda2{
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    padding: 8em;
+}*/
+
+
+.star1{
+    position:relative; top: 275px; left: -260px;
+    size: 15px;
+   
+}
+
+
+
