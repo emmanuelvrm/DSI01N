@@ -1,0 +1,243 @@
+* {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'GonziExpanded';
+    src: url(./GonziExpandedPERSONALUSE-LightItalic.otf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #000000;
+    /* Cor da borda na parte inferior */
+}
+
+.logo {
+    position: relative;
+    margin-left: 20px;
+    width: 20%;
+}
+
+nav {
+    display: flex;
+}
+
+
+.icone{
+    width: auto;
+   justify-content: right;
+
+    height: 50px;
+
+
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 30px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.conteudo {
+    padding: 10px;
+}
+
+.rodape {
+    background-color: #000000;
+
+    text-align: center;
+    padding: 2px;
+
+}
+
+.rodape img {
+    width: 80%;
+    border: 1px solid #BFA37C;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bloco1 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #BFA37C;
+}
+
+.bloco h2 {
+    color: #ffffff;
+}
+
+.bloco p {
+    color: #ffffff;
+}
+
+
+
+.bloco2 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #BFA37C;
+}
+
+.bloco h2 {
+    color: #ffffff;
+}
+
+.bloco p {
+    color: #ffffff;
+}
+
+.bloco3 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #BFA37C;
+}
+
+.bloco h2 {
+    color: #ffffff;
+}
+
+.bloco p {
+    color: #fff9f9;
+}
+
+.body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.bloco4 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #BFA37C;
+
+
+}
+
+.P {
+
+    color: azure;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+}
+
+.bloco h2 {
+    color: #333;
+}
+
+.bloco p {
+    color: #ffffff;
+}
+
+
+.bloco5 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #BFA37C;
+}
+
+.bloco5 h2 {
+    color: rgb(255, 255, 255)636;
+}
+
+.bloco5 p {
+    color: rgb(255, 255, 255);
+}
+
+.bloco6 {
+    width: 200px;
+
+    height: 200px;
+
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border: 1px solid #BFA37C;
+}
+
+.bloco h2 {
+    color: #ffffff;
+}
+
+.bloco p {
+    color: #ffffff;
+}
+
+.checked{
+    color: orange;
+}

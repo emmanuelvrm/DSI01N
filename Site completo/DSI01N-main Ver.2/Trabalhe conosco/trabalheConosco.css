@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.background-image {
+    pointer-events: none;
+    width: 100%;
+    height: 100%;    
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: "GonziExpanded";
+    src:
+      local("GonziExpanded"),
+      url("./FONTES/GonziExpandedPERSONALUSE-Thin.otf") format("opentype") tech(color-COLRv1),
+}
+
+.user-text-title {
+    margin-top: 0.8vw;
+    color: black;
+    font-family: 'GonziExpanded';
+}
+
+
+.logo {
+    padding: 5%;
+    width: 30%;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header-bar {
+    height: 1.5px;
+    background-color: bl;
+}
+
+.title-section {
+    margin-top: 15vw;
+    font-family: 'GonziExpanded';
+    color: white;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.info-section-width-align-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-section-width-align-line {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.contact-info {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info h2,
+.contact-info h3 {
+    font-size: 20px;
+}
+
+.address-section h2 {
+    font-size: 20px;
+}
+
+.address-section,
+.hours-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hours-section h2 {
+    font-size: 20px;
+}
+
+.align-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.font-title {
+    list-style-type: none;
+    pointer-events: none;
+}
+
+.no-arrow::-webkit-inner-spin-button {
+    display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1600px) {
+    .info-section {
+        
+        margin-top: -30vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .title-section {
+        font-size: 80px;
+    }
+
+    .contact-info h2,
+    .contact-info h3 {
+        font-size: 15px;
+        color: white;
+    }
+
+    .address-section h2 {
+        font-size: 15px;
+        color: white;
+    }
+
+    .hours-section h2 {
+        font-size: 15px;
+        color: white;
+    }
+
+    .button-send-pos {
+        margin-top: 2vw;
+        margin-left: 22.3vw; 
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .info-section {
+        
+        margin-top: 0vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .info-section {
+        
+        margin-top: -25vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .info-section {
+        
+        margin-top: -25vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .user-text-title {
+        margin-top: 0.9vw;
+        color: white;
+        font-family: 'GonziExpanded';
+    }
+
+    .button-send-pos {
+        margin-top: 2vw;
+        margin-left: 29vw; 
+        width: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .info-section {
+        
+        margin-top: -10vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .info-section {
+        
+        margin-top: -10vw;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .background-image {
+        height: 400px;
+    }
+
+    .title-section {
+        font-size: 40px;
+    }
+
+    .info-section {
+        top: 35vw;
+        flex-direction: column;
+    }
+
+    .info-section-width-align,
+    .info-section-width-align-bottom,
+    .info-section-width-align-line,
+    .align-info {
+        width: 100%;
+    }
+}

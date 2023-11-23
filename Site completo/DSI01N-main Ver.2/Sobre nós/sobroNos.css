@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Noto+Sans:wght@700&family=Oswald:wght@500&family=Passion+One&family=Righteous&family=Sriracha&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family:'Kanit', sans-serif;
+}
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #141A1C; /* Cor da borda na parte inferior */
+}
+.logo{
+    height: 30px;
+    position: relative;
+    margin-left: 50px;
+    
+}
+nav {
+    display: flex;
+}
+nav a {
+    color: #141A1C;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 30px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+main{
+    height: 100%;
+    font-size: 18px;
+    
+}
+.logocentro{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.logocentro img{
+    max-width: 100%;
+}
+.conteudo{
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+
+footer {
+    background-color: #141A1C;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .elemento {
+    /* Estilos individuais dos elementos do rodapé */
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }

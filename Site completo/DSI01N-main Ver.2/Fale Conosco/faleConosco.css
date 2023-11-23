@@ -1,0 +1,179 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  text-decoration: none;
+}
+
+header img {
+  width: 30%;
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+  border-bottom: white;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+main {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 300%;
+  background-image: url(/Fotos/Carros/CARRO\ LOCAÇÃO\ 3.jpg);
+}
+
+#but {
+  padding: 5%;
+  width: 100px;
+}
+
+.user-text-title {
+  color: white;
+  font-family: 'GonziExpanded';
+}
+
+form {
+  padding: 5%;
+}
+
+#esp {
+  width: 1000px;
+}
+
+#sese {
+  margin: 5%;
+}
+
+.logo {
+  width: 30%;
+}
+
+
+.title-section {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'GonziExpanded';
+  user-select: none;
+}
+
+.info-section-width-align {
+  text-align: center;
+
+}
+
+.info-section-width-align-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.info-section-width-align-line {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.content-section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contact-info {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info h2,
+.contact-info h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.address-section h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.address-section,
+.hours-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hours-section h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.align-info {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.font-title {
+  list-style-type: none;
+  pointer-events: none;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #dbdbdb 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #c7c7c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:16px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dbdbdb 5%, #ffffff 100%);
+	background-color:#dbdbdb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
